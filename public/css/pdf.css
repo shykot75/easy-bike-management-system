@@ -1,0 +1,53 @@
+body {
+    font-family: 'solaimanlipi', Arial, sans-serif !important;
+    width: 100%;
+
+}
+.receipt .copy {
+    width: 100%;
+    align-items: end;
+    justify-content: end;
+    horiz-align: right;
+    display: grid;
+    overflow:hidden;
+
+
+}
+.receipt .copy p {
+    background: #a4d0f8;
+    padding: 5px 8px;
+}
+.lokkirpur-table td{
+    padding: 20px;
+}
+
+.lokkirpur-table h2 {
+    font-size: 46px;
+    color: red;
+}
+.lokkirpur-table p {
+    text-align: center;
+}
+
+.receipt .container{
+    width: 90% !important;
+    margin: auto !important;
+    height: 100vh !important;
+    display: block !important;
+    position: relative !important;
+}
+.type::after, .type:after {
+    font-family: 'solaimanlipi', Arial, sans-serif !important;
+    content: '' !important;
+    background-image: url("{{asset('/img/vs_logo.png')}}");
+    position: absolute !important;
+    top: 0px !important;
+    right: 0px !important;
+    bottom: 0px !important;
+    left: 0px !important;
+    background-position: center !important;
+    background-size: 500px !important;
+    background-repeat: no-repeat !important;
+    visibility: visible !important;
+    opacity: 0.5 !important;
+}

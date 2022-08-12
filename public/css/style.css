@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+}
+
+
+/*****   LOGIN PAGE STARTS   *****/
+.writing-side {
+    float: left;
+}
+
+.login-side {
+    overflow: hidden;
+    background: #E1FCE3;
+    padding: 60px 25px 20px 25px;
+    min-height: 700px;
+}
+
+.writing-side .logo-headline{
+    background: #34495e;
+    padding: 30px 20px 80px 20px;
+    min-height: 200px;
+}
+.writing-side .logo-headline span {
+    overflow: hidden;
+    margin: 6px 0px;
+    padding: 0px 4px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ecf0f1;
+    vertical-align: center;
+    letter-spacing: 0.6px;
+
+}
+
+.writing-side .meyor-lekha{
+    background: #008000;
+    padding: 30px 20px 40px 20px;
+    min-height: 500px;
+}
+
+.writing-side .meyor-lekha span {
+    overflow: hidden;
+    margin: 6px 10px;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: justify !important;
+    line-height: 1.8em;
+}
+
+.login-side .welcome {
+    margin-top: 50px;
+    text-align: center;
+
+}
+.login-side .welcome h3 {
+    color: #008000;
+    font-weight: 700;
+}
+.login-side .welcome p {
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.login-side .login-form {
+    margin-top: 20px
+}
+
+.login-side .copyright {
+    text-align: center;
+}
+/*****   LOGIN PAGE ENDS     *****/
+
+/*****   Menu Settings   *****/
+body[data-sidebar=dark] .mm-active .active {
+    color: #FFF!important;
+    background: #4834d4;
+}
+body[data-sidebar=dark] .navbar-brand-box {
+    background: #FFF;
+}
+body[data-sidebar=dark] .vertical-menu {
+    background: #0c0b1a!important;
+}
+/*****  Menu Settings      *****/
+
+
+
+/*!*****      ADD Tax Blade Starts    *****!*/
+.new-license-add span,
+.new-license-add label {
+    font-weight: 700;
+}
+.new-license-add h2,
+.new-license-add h3,
+.new-license-add h4,
+.new-license-add h5{
+    border-radius: 4px;
+}
+/*!*****      ADD Tax Blade Ends  *****!*/
+
+
+
+
+/*!*****  Manage Tax Blade Starts     *****!*/
+.new-license-manage table{
+    background: #F5F5F8;
+
+}
+.new-license-manage table thead {
+    color: #000000b8;
+    font-size: 16px;
+
+    text-align: center;
+}
+
+.new-license-manage table thead tr {
+    background: #2FCC8E;
+}
+.new-license-manage .dataTables_length {
+    margin-right: 20px;
+}
+
+.new-license-manage table tbody {
+    color: #2f3542;
+    font-size: 14px;
+
+}
+
+.new-license-manage table.dataTable tbody>tr.selected {
+    color: black;
+    background: #00b9ff4f;
+}
+
+.new-license-manage span,
+.new-license-manage i {
+
+    font-size: 20px;
+}
+.new-license-manage .page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #2FCC8E!important;
+    border-color: #2FCC8E!important;
+}
+/*!*****  Manage Tax Blade Ends   *****!*/
+
+
+
+
+/*!*****      QR-details Blade Starts     *****!*/
+/*.qr-details {*/
+/*    background: #FFFFFF;*/
+/*    font-family: 'Noto Serif Bengali', serif !important;*/
+/*    border: 1px solid #000000;*/
+
+/*}*/
+/*.qr-details h3, .show-details h3 {*/
+/*    font-size: 32px;*/
+/*    font-weight: 700;*/
+/*}*/
+
+/*.qr-details th, .show-details th {*/
+/*    font-size: 18px;*/
+/*    font-weight: 700;*/
+/*    line-height: 1em;*/
+/*}*/
+/*.qr-details td, .show-details td {*/
+/*    font-size: 16px;*/
+/*    font-weight: 600;*/
+/*    line-height: 1em;*/
+/*}*/
+/*!*****  QR-details Blade Ends   *****!*/
+
+
+
+
+/*****  Show-License Blade Starts    *****/
+
+.show-license td {
+    padding-left: 60px;
+}
+/*****  Show-License Blade Ends     *****/
+
+
+
+
+/*!***** Search Taxpayer Starts *****!*/
+/*.tax-search .search-border-1 {*/
+/*    border: 1px solid #000;*/
+/*    border-bottom: none;*/
+/*}*/
+/*.tax-search .search-border-2 {*/
+/*    border: 1px solid #000;*/
+/*    border-top: none;*/
+/*}*/
+/*!***** Search Taxpayer Ends *****!*/
+
+
+
+@media only screen and (max-width: 520px) {
+
+    .navbar-header .site-headline {
+        font-size: 15px !important;
+    }
+    .navbar-header .site-tagline {
+        font-size: 12px !important;
+
+    }
+    .qr-details h1 {
+        font-size: 30px !important;
+        margin-left: 10px !important;
+        margin-right: 20px !important;
+    }
+    .qr-details h2 {
+        font-size: 16px !important;
+        margin-left: 10px !important;
+        margin-right: 20px !important;
+    }
+}
